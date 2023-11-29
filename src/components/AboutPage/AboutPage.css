@@ -1,0 +1,114 @@
+/* BoxComponent.css */
+.popular_exam_container {
+  padding: 4rem;
+  background: #f9f9f9;
+}
+.popular_exam {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+/* Styles for the box */
+.box {
+  width: 200px; /* Adjust the width as needed */
+  height: 105px; /* Adjust the height as needed */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+  cursor: pointer;
+  padding: 18px 11px;
+}
+
+.box:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Styles for the image container */
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image-container img {
+  margin: 0px auto 7px;
+  height: 54px;
+  width: 54px;
+}
+
+.image-container img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+/* Styles for the text container */
+.text-container {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-container p {
+  text-align: center;
+  margin: 0;
+}
+.exam-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+}
+
+/* Styles for Accordion */
+.accordion {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  width: 60rem;
+  cursor: pointer;
+  background-color: #f0f0f0;
+}
+
+.accordion-header h2 {
+  margin: 0;
+}
+
+.accordion-content {
+  padding: 10px;
+}
+
+/* Styles for NestedAccordion */
+.nested-accordion {
+  margin: 0 auto;
+}
+
+.image-description-box {
+  width: 100px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.image {
+  width: 60%;
+  height: auto;
+}
+
+.description {
+  margin-top: 10px;
+  font-size: 0.8rem;
+}

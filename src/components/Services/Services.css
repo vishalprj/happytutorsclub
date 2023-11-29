@@ -1,0 +1,17 @@
+.service-container {
+  padding: 4rem;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+.service_1 {
+  display: grid;
+  grid-template-columns: 5fr 10fr;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  height: 310px;
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+  /* gap: 18rem; */
+  background-color: #ffff;
+  margin: 0 auto;
+}
